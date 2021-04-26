@@ -1,0 +1,87 @@
+.header {
+  position: relative;
+  font-family: "Abril Fatface", cursive;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.h4 {
+  font-size: 30px;
+  position: absolute;
+  bottom: 85px;
+  left: 250px;
+}
+.h1 {
+  font-size: 50px;
+  position: absolute;
+  bottom: 30px;
+  left: 250px;
+}
+
+img {
+  width: 100%;
+}
+.myPage {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 30px 0 0 0;
+}
+.subTitle {
+  font-family: "Merriweather", serif;
+  font-size: 10px;
+  margin: 0;
+}
+.textBox {
+  font-family: "Abril Fatface", cursive;
+  color: #222;
+  background: grey;
+  color: white;
+  text-aling: center;
+  padding: 30px;
+  font-size: 35px;
+  margin: 30px 0;
+}
+.upperCase {
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 30px 0;
+}
+.lastUpperCase {
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20px;
+  border-top: 3px solid black;
+  margin: 30px 0;
+}
+p {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 30px 0;
+}
+li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.markPlace {
+  position: relative;
+}
+.mark {
+  position: absolute;
+  top: -75px;
+  left: 0;
+  color: white;
+  font-size: 100px;
+}
+
+.header .anakinName {
+  font-family: "Abril Fatface", cursive;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+blockquote::before {
+  content: '”';
+  /* ide jön a stílusa, Pseudo-elements, nézz utána majd !!*/
+}
